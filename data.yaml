@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 29
+names: ['Banteay_Meanchey', 'Battambang', 'Cambodia', 'Kampong_Cham', 'Kampong_Chhnang', 'Kampong_Speu', 'Kampong_Thom', 'Kampot', 'Kandal', 'Kep', 'Koh_Kong', 'Kratie', 'Mondul_Kiri', 'Oudor_Meanchey', 'Pailin', 'Phnom_Penh', 'Police', 'Preah_Sihanouk', 'Preah_Vihear', 'Prey_Veng', 'Pursat', 'RCAF', 'Ratanakiri', 'Siem_Reap', 'State', 'Stung_Treng', 'Svay_Rieng', 'Takeo', 'Tboung_Khmum']
+
+roboflow:
+  workspace: taki-dk0de
+  project: plate_v4
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/taki-dk0de/plate_v4/dataset/3
